@@ -1,0 +1,68 @@
+/* Page background */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+   
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card layout */
+form {
+    background: #ffffff;
+    padding: 35px;
+    width: 340px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin-left: 39%;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: #444;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #66a6ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 166, 255, 0.5);
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #66a6ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effe*
